@@ -1,0 +1,26 @@
+{
+  "name": "packet-analyzer-js",
+  "version": "1.0.0",
+  "description": "A JavaScript port of the Packet Analyzer and DPI Engine",
+  "type": "module",
+  "main": "src/main.js",
+  "bin": {
+    "packet-analyzer": "./src/main.js",
+    "dpi-engine": "./src/main_dpi.js"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "dpi": "node src/main_dpi.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pcap",
+    "packet",
+    "analyzer",
+    "dpi",
+    "network"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
